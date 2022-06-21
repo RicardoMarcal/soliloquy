@@ -124,7 +124,8 @@
   position: fixed;
   bottom: 0.5rem;
   left: 0.5rem;
-  color: rgba(127,127,127,1);
+  color: rgba(187,187,187,1);
+  text-shadow: 1px 1px 3px #000;
 }
 
 .unsplash a{
