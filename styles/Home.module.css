@@ -48,6 +48,10 @@
   box-shadow: rgba(0,0,0,0.2) 0px 8px 10px;
 }
 
+.chat .clear{
+  right: 0.8rem;
+}
+
 .chat section{
   height: 100%;
   padding: 0.5rem;
@@ -109,11 +113,14 @@
 }
 
 .chat form button{
-  font-size: 1.7rem;
-  color: #fff;
   background-color: transparent;
   border: none;
   outline: none;
+}
+
+.chat form i{
+  font-size: 1.7rem;
+  color: #fff;
   cursor: pointer;
   transition: 300ms box-shadow;
 }

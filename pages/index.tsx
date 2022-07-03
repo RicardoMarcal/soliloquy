@@ -57,6 +57,11 @@ const Home: NextPage = () => {
     setInput('')
   }
 
+  const handleClear = (e: React.MouseEvent) => {
+    e.preventDefault()
+    setMessages([])
+  }
+
   return (
     <div className={styles.container}>
       <Head>
@@ -80,8 +85,9 @@ const Home: NextPage = () => {
             )}
           </section>
           <form onSubmit={handleSend} className={styles.form}>
+            <p title="Clear messages" onClick={handleClear}><i className="fa-solid fa-trash-can"></i></p>
             <input id="messageInput" type="text" autoComplete='off' onChange={handleChange} />
-            <button><i className="fa fa-paper-plane" aria-hidden="true"></i></button>
+            <button title="Send message"><i className="fa fa-paper-plane" aria-hidden="true"></i></button>
           </form>
         </div>
       </main>
