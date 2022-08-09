@@ -1,9 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
 
 const images = [
   "https://images.unsplash.com/photo-1655219435115-d9f0faccd7cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
@@ -27,7 +26,6 @@ const images = [
   "https://images.unsplash.com/photo-1656577028224-0660607d1de3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
   "https://images.unsplash.com/photo-1649184268598-a7edb03c4414?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
   "https://images.unsplash.com/photo-1657650976741-ee0cb25af5d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80",
-  
 ]
 
 
